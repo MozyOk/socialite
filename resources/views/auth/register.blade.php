@@ -75,6 +75,11 @@
                         <i class="fa fa-facebook"></i>
                         Sing Up with Facebook
                     </a>
+                    
+                    <a href="{{ url('login/twitter') }}" class="btn btn-social btn-twitter">
+                        <i class="fa fa-twitter"></i>
+                        Sing Up with Twitter
+                    </a>
                 </div>
             </div>
         </div>

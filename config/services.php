@@ -39,6 +39,12 @@ return [
         'client_id' => env('FACEBOOK_ID'),
         'client_secret' => env('FACEBOOK_SERCRET'),
         'redirect' =>  env('FACEBOOK_REDIRECT'),
-    ]
+    ],
+
+    'twitter' => [
+        'client_id' => env('TWITTER_ID'),
+        'client_secret' => env('TWITTER_SERCRET'),
+        'redirect' =>  env('TWITTER_REDIRECT'),
+    ],
 
 ];
